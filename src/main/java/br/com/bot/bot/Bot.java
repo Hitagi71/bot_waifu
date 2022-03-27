@@ -1,11 +1,11 @@
-package br.com.misakabot.bot;
+package br.com.bot.bot;
 
-import br.com.misakabot.commands.ICommand;
-import br.com.misakabot.commands.anime.AnimeCommand;
-import br.com.misakabot.commands.music.PlayCommand;
-import br.com.misakabot.commands.music.JoinCommand;
-import br.com.misakabot.music.LavaPlayerAudioProvider;
-import br.com.misakabot.music.TrackScheduler;
+import br.com.bot.commands.ICommand;
+import br.com.bot.commands.anime.AnimeCommand;
+import br.com.bot.commands.music.PlayCommand;
+import br.com.bot.commands.music.JoinCommand;
+import br.com.bot.music.LavaPlayerAudioProvider;
+import br.com.bot.music.TrackScheduler;
 import com.sedmelluq.discord.lavaplayer.player.AudioPlayer;
 import com.sedmelluq.discord.lavaplayer.player.AudioPlayerManager;
 import com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager;
@@ -20,7 +20,7 @@ import discord4j.voice.AudioProvider;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Misaka {
+public class Bot {
     private static final Map<String, ICommand> commands = new HashMap<>();
 
     public static void main(String[] args) {

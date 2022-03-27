@@ -1,6 +1,6 @@
-package br.com.misakabot.commands.music;
+package br.com.bot.commands.music;
 
-import br.com.misakabot.commands.ICommand;
+import br.com.bot.commands.ICommand;
 import discord4j.core.event.domain.message.MessageCreateEvent;
 import discord4j.core.object.VoiceState;
 import discord4j.core.object.entity.Member;

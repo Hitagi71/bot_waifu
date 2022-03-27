@@ -1,7 +1,7 @@
-package br.com.misakabot.commands.music;
+package br.com.bot.commands.music;
 
-import br.com.misakabot.commands.ICommand;
-import br.com.misakabot.music.TrackScheduler;
+import br.com.bot.commands.ICommand;
+import br.com.bot.music.TrackScheduler;
 import com.sedmelluq.discord.lavaplayer.player.AudioPlayerManager;
 import discord4j.core.event.domain.message.MessageCreateEvent;
 import discord4j.core.object.entity.Message;

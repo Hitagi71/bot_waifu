@@ -1,4 +1,4 @@
-package br.com.misakabot.music;
+package br.com.bot.music;
 
 import com.sedmelluq.discord.lavaplayer.format.StandardAudioDataFormats;
 import com.sedmelluq.discord.lavaplayer.player.AudioPlayer;
